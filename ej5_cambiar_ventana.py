@@ -1,5 +1,6 @@
 import time
 import unittest
+
 from selenium import  webdriver
 from selenium.webdriver.common.keys import Keys
 
@@ -19,11 +20,11 @@ class Using_unittest(unittest.TestCase):
         driver.get("https://facebook.com")
         time.sleep(3)
         user = driver.find_element_by_id("email")
-        user.send_keys("info@circuloin.com")
+        user.send_keys("direccion")
         user.send_keys(Keys.ENTER)
         time.sleep(3) 
         password = driver.find_element_by_id("pass")
-        password.send_keys("Circulo123")
+        password.send_keys("*****")
         password.send_keys(Keys.ENTER)
          
         def tearDown(self):
