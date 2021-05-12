@@ -1,0 +1,1 @@
+# Haremos 3 files: 1 para crear un archivo .ini , otro para guardarlo y otro para 
